@@ -41,6 +41,7 @@ def analyze_text(text):
         analysis = ""
     return analysis
 
+st.subheader("Dirghaaayu")
 st.title("Medical Lab Report Analyzer")
 
 st.text("""
@@ -74,3 +75,4 @@ if uploaded_file is not None:
                 st.error("Failed to analyze the text.")
     else:
         st.error("No text extracted from the uploaded file.")
+st.write("© 2024 Dirghaaayu.All rights reserved")
