@@ -43,8 +43,8 @@ def analyze_text(text):
 
 # Configure page settings
 st.set_page_config(
-    page_title="Darohar(धरोहर)",
-    page_icon=":place:",
+    page_title="Dirghaaayu",
+    page_icon=":lab:",
     layout="centered"
 )
 
