@@ -41,6 +41,14 @@ def analyze_text(text):
         analysis = ""
     return analysis
 
+# Configure page settings
+st.set_page_config(
+    page_title="Darohar(धरोहर)",
+    page_icon=":place:",
+    layout="centered"
+)
+
+
 st.subheader("Dirghaaayu")
 st.title("Medical Lab Report Analyzer")
 
